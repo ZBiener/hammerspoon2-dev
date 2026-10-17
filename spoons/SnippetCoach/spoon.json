@@ -1,0 +1,6 @@
+{
+  "name": "SnippetCoach",
+  "author": "ZBiener",
+  "version": "1.0.0",
+  "description": "Reminds you of Alfred snippet keywords when you type out their expansions."
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "../../../system-config/hammerspoon2/Spoons/DesktopColumns.spoon2/lib"
+  },
+  "files": [
+    "../../hammerspoon.d.ts",
+    "../../src/hammerspoon2.d.ts"
+  ],
+  "include": ["src/**/*.ts"]
+}

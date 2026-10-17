@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "commonjs",
+    "strict": true,
+    "skipLibCheck": true,
+    "types": [],
+    "noEmitOnError": true
+  },
+  "files": ["hammerspoon.d.ts"],
+  "include": ["src/**/*.ts"]
+}

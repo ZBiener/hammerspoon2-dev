@@ -1,0 +1,17 @@
+{
+  "name": "hammerspoon2-dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Development and build tools for Hammerspoon 2 configuration Spoons.",
+  "scripts": {
+    "build": "tsc -p spoons/SnippetCoach/tsconfig.json && tsc -p spoons/DesktopColumns/tsconfig.json && node build-spoons.js",
+    "watch": "tsc -p spoons/DesktopColumns/tsconfig.json --watch",
+    "watch:snippet-coach": "tsc -p spoons/SnippetCoach/tsconfig.json --watch",
+    "clean": "rm -rf ../system-config/hammerspoon2/Spoons/SnippetCoach.spoon2 ../system-config/hammerspoon2/Spoons/DesktopColumns.spoon2",
+    "bundle": "node bundle.js",
+    "test:snippet-coach": "npm run build && node tests/snippet_coach_matching.test.cjs"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
